@@ -1,0 +1,50 @@
+html {
+	font-family: 'Source Sans Pro', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1 {
+	font-size: 2rem;
+}
+header {
+	background-color: #C13279;
+	color: #e6e6e6;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.2em 0.5em;
+}
+header .logo_container {
+	flex: 10%;
+}
+header h1 {
+	flex: 80%;
+	text-align: center;
+	font-weight: 700;
+}
+header .empty_container {
+	flex: 10%;
+}
+.add_item{
+	padding: 2em 0;
+	
+}
+.main_container {
+	width: 80%;
+	margin: 0 auto;
+}
+.main_container form {
+	width: 50%;
+	margin: 0 auto;
+}
+form input {
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+	height: 3em;
+	font-size: 1.1em;
+	padding-left: 0.8em;
+}
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #c9c9c9;
+  font-size: 1.1em;
+}
